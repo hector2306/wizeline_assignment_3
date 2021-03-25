@@ -1,0 +1,14 @@
+{
+  "name": "performance",
+  "version": "1.0.0",
+  "description": "performance test",
+  "main": "index.js",
+  "scripts": {
+    "test": "artillery run --output results/report.json performance.yml && artillery report --output results/report.html results/report.json"
+  },
+  "author": "Hector Mares",
+  "license": "ISC",
+  "dependencies": {
+    "artillery": "^1.6.2"
+  }
+}
